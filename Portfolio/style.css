@@ -1,0 +1,375 @@
+/* Set the overall style for the page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+/* Style the navigation menu */
+nav {
+  background-color: gold;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-align: center;
+}
+nav li {
+  margin-right: 20px;
+}
+nav a {
+  color: #212121;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Style the social media icons */
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.social-media a {
+  font-size: 24px;
+  color: #212121;
+  margin: 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.social-media a:hover {
+  transform: scale(1.2);
+}
+
+/* Style the header */
+header {
+  background: black;
+  background-size: cover;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  }
+  
+  header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: 20px; 
+  }
+  
+  h1 {
+  margin: 0;
+  font-size: 40px;
+  letter-spacing: 5px;
+  background-color: gold;
+  }
+  
+  header p {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  text-shadow: 2px 2px 0 #000;
+  max-width: 600px;
+  margin-left: 70px;
+  }
+  
+  .header-buttons {
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+  }
+  
+  .header-buttons button {
+  background-color: gold;
+  color: black;
+  border-radius: 50px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  }
+  
+  .header-buttons button:hover {
+  background-color: white;
+  }
+
+/* Style the main content */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+main h2 {
+  margin-top: 0;
+}
+
+/* Style the skills card content */
+.skill-card {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto 80px;
+  padding: 20px;
+  text-align: center;
+  }
+  
+  .skill-card h2 {
+  margin-top: 0;
+  }
+  
+  .skill-card ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  }
+  
+  .skill-card li {
+  background-color: gold;
+  color: black;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin: 5px;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  }
+  
+  .skill-card li:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .skill-card a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+  }
+  
+  /* Style the about card content */
+  #about-card {
+  background-color: rgba(255, 255, 255);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 60px;
+  }
+  
+  #about-card h2 {
+  text-align: center;
+  }
+  
+  #about-card:after {
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: gold;
+  margin: 20px 0;
+  }
+  
+  /* Style the projects section */
+  #project-card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  text-align: center;
+  }
+  
+  #project-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  #project-card h3 {
+  font-size: 24px;
+  margin: 10px 0 20px;
+  }
+  
+  #project-card p {
+  font-size: 18px;
+  margin-top: 40px;
+  text-align: left;
+  padding: 10px;
+  }
+  
+  #project-card li {
+    text-align: left;
+  }
+
+  #project-card a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 10px;
+  }
+  
+  #project-card button {
+  background-color: gold;
+  border-radius: 50px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: black;
+  }
+
+  #project-card button:hover {
+    background-color: white;
+    border: 2px solid black;
+  }
+
+  /* Style the form */
+  .form-container {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto 80px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .form-container h1 {
+    margin-top: 0;
+    color: gold;
+  }
+
+  .form-container h2 {
+    margin-bottom: 20px;
+  }
+
+  label {
+    color: gold;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px auto;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 60%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 20px;
+    border: 2px solid gold;
+    background-color: #333;
+    color: white;
+  }
+
+  textarea {
+    width: 95%;
+  }
+  
+  button[type="submit"] {
+    background-color: gold;
+    color: black;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    }
+  
+  button[type="submit"]:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  
+  
+  @media only screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      padding: 30px;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-size: 36px;
+    }
+    header p {
+      font-size: 18px;
+      max-width: 100%;
+      margin-bottom: 30px;
+    }
+    .header-buttons {
+      position: static;
+      transform: none;
+      margin-top: 30px;
+    }
+    .header-buttons button {
+      padding: 8px 16px;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    header {
+      padding: 20px;
+    }
+    header h1 {
+      font-size: 28px;
+    }
+    header p {
+      font-size: 16px;
+    }
+    .header-buttons button {
+      padding: 6px 12px;
+      font-size: 12px;
+      margin-bottom: 3px;
+    }
+  }
+  

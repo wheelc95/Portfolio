@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data Analyst Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#about-card">About</a></li>
+        <li><a href="#project-card">Projects</a></li>
+      </ul>
+      <h1>Charah</h1>
+      <div class="social-media">
+        <a href="https://github.com/wheelc95" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="https://www.linkedin.com/in/charah-wheeler-1421a4128/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="Resume.pdf" target="_blank"><i class='bx bxs-file-pdf'></i></a>
+      </div>
+    </nav>
+    <header>
+      <img src="Profile Picture.png" alt="Profile Picture">
+      <p>Transforming Raw Data into Actionable Insights</p>
+      <div class="header-buttons">
+        <button>Contact</button>
+      </div>
+    </header>  
+    <main>
+      <div class="skill-card">
+        <h2>Skills</h2>
+        <ul>
+          <li>Data Analysis</li>
+          <li>SQL</li>
+          <li>Excel</li>
+          <li>Microsoft Access</li>
+          <li>Python</li>
+          <li>Data Visualization (Power BI)</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+        </ul>
+      </div>
+      <div id="about-card">
+        <h2>About Me</h2>
+        <p>Hi there! My name is Charah and I am a data analyst with a strong background in software development. I have completed my associates in Software Development and recently completed a 9-month internship at my previous employer where I worked on various data analysis projects.</p>
+        <p>My expertise lies in data analysis using SQL, Excel, and Microsoft Access. I am also proficient in Python and have experience working with data visualization tools such as Power BI.</p>
+        <p>I have a passion for turning data into actionable insights and have helped businesses make data-driven decisions that have positively impacted their bottom line. When I am not working with data, you can find me exploring new technologies and learning about the latest developments in the data analysis field.</p>
+      </div>
+      <div class="project-cards-container">
+        <div id="project-card">
+          <h3>Video Game Sales Data Analysis Using Excel</h3>
+          <img src="ExcelProjectScreenshot.png" style="max-width:100%; height:auto" alt="Screenshot of Excel Project">
+          <p>This project was created using Excel exclusively. I utilized a video game sales dataset that I found on Kaggle.com. After performing an exploratory data analysis, I arrived at a few conclusions. Firstly, sales in North America were consistently higher than in Europe and Japan between 1980 and 2016. Secondly, the Playstation 2 platform has sold the most in terms of total sales. Thirdly, Nintendo is the leading publisher from 1980 until 2016. Lastly, I found that video games belonging to the action genre comprise the largest proportion of global sales. The techniques employed for this analysis include: </p>
+          <ul>
+            <li>Data Cleaning</li>
+            <li>Pivot Tables</li>
+            <li>Formulas</li>
+            <li>xLookup</li>
+            <li>Charts</li>
+            <li>Excel Dashboard</li>
+            <li>Slicers</li>
+          </ul>
+          <button class="learn-more-1">View On Github</button>
+      </div>
+      <div class="form-container">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </main>
+  </body>
+  </html>
